@@ -1,28 +1,24 @@
-laravel-admin.org
-=================
-
-Source code of official [http://laravel-admin.org](http://laravel-admin.org) website.
 
 ## Installation
 
 ```shell
 
-$ git clone http://gitlab.namviet-corp.vn/hoatq/linkgo_cms.git
+$ git clone https://github.com/boykioyb/cms-laravel-admin.git
 
-$ cd linkgo_cms
+$ cd cms-laravel-admin
 
 $ composer install 
 
 ```
 
-Then create a database with name `linkgo_cms_admin` in your mysql. You can find database dump in `storage/mysql_dump/linkgo_cms_admin.sql`,  import it:
+Then create a database with name `cms_admin` in your mysql. You can find database dump in `storage/mysql_dump/cms_admin.sql`,  import it:
 ```sql
 
-mysql> create database `linkgo_cms_admin`;
+mysql> create database `cms_admin`;
 
-mysql> use `linkgo_cms_admin`;
+mysql> use `cms_admin`;
 
-mysql> source storage/mysql_dump/linkgo_cms_admin.sql
+mysql> source storage/mysql_dump/cms_admin.sql
 
 ```
 
